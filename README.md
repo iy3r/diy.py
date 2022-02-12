@@ -1,4 +1,4 @@
-# diy.py-starter-kit
+# diy.py
 A docker-based python environment for DIY investors
 
 #### Build container
