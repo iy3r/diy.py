@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  data-lab:
+    build: .
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./src:/lab

@@ -127,3 +127,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# macOS
+.DS_Store
+
+# Keep only .feather and .xlsx files in /data
+src/data/*
+!src/data/*.feather
+!src/data/*.xlsx
