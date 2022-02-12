@@ -131,8 +131,9 @@ dmypy.json
 # macOS
 .DS_Store
 
-# Keep only .feather and .xlsx files in /data
+# Keep only .json, .xlsx and .feather files in /data
 src/data/*
-!src/data/*.feather
+!src/data/*.json
 !src/data/*.xlsx
+!src/data/*.feather
 !src/data/.gitkeep
