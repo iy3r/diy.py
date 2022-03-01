@@ -11,8 +11,7 @@ def fetch_index(indexType):
     to_date = date.today()
     from_date = to_date - timedelta(days=364)
 
-    Data = namedtuple(
-        "Data", ["Date", "Open", "High", "Low", "Close", "Turnover"])
+    Data = namedtuple("Data", ["Date", "Open", "High", "Low", "Close", "Turnover"])
     data = []
 
     while True:
